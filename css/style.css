@@ -7,3 +7,42 @@
     padding: 0;
 }
 
+/*----------------
+    LAYOUT
+------------------*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*----------------
+    TYPOGRAPHY
+------------------*/
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6f5f3;
+}
+
+h1 {
+    font-family: "Nerko One", cursive;
+    font-size: 46px;
+    text-shadow: 1px 1px 2px #333;
+}
+
+
+/*----------------
+    HEADER
+------------------*/
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 14px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #ff9614;
+}
